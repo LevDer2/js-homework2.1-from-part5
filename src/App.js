@@ -4,8 +4,8 @@ import Message from "./components/Message";
 function App() {
   return (
     <>
-      <Greeting />
-      <Message text="I CAN DO IT. IT IS EASY!" button="Click please"/>
+      <Greeting name="Ivan"/>
+      <Message text="I did it" button="Click please"/>
     </>
   );
 }
